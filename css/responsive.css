@@ -1,0 +1,105 @@
+@media (max-width:1250px){
+    .wrap{
+        width: 85%;
+        margin: 0px auto;
+    }
+    .card{
+        width: 17.4%;
+        margin: 1%;
+    }
+
+    .card p{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #lateral{
+        width: 33% ;
+        margin-right: 30px;
+        
+    }   
+    #articles{
+        width: 60%;
+    }
+
+    #article article{
+        width: 80%;
+    }
+
+    #banner{
+        width: 94% ;
+        margin-left: 8px ;
+        
+    }
+
+    #banner h1 {
+        text-align: center;
+        font-size: 35px;
+        margin: 33px auto;
+    }
+    #footer .wrap > div{
+        width: 24%;
+    }
+
+    #footer #browsers img{
+        width: 14%;
+    }
+    #footer h5{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1080px){
+    .card .category{
+        font-size: 15px;
+    }
+
+    .card .description{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 1060px){
+    
+#lateral #loupe{
+    height: 25px;
+    width: 25px;
+    margin: 0 auto;
+}
+
+#footer h5{
+    font-size: 25px;
+}
+
+#footer .wrap > div{
+    width: 20%;
+}
+
+
+}
+
+
+@media (max-width: 950px){
+#lateral{
+    width: 26% ;
+    
+    
+}  
+#articles{
+    width: 65%;
+}
+
+#lateral input[type="text"]{
+    width: 63%;
+}
+
+#login input[type="submit"],
+#login input[type="reset"]{
+    width: 35%;
+    
+}
+
+}
